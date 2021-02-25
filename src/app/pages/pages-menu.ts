@@ -52,7 +52,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/routes/production-income',
       },
     ],
-  }
+  },
   /*{
     title: 'Forms',
     icon: 'edit-2-outline',

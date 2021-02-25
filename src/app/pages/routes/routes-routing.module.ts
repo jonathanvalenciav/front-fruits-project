@@ -11,7 +11,8 @@ const routes: Routes = [{
     {
       path: 'production-income',
       component: ProductionIncomeComponent,
-    },],
+    },
+  ],
 }];
 
 @NgModule({

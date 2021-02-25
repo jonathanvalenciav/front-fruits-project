@@ -14,11 +14,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     NbStepperModule,
     RoutesRoutingModule,
-    NbCardModule
+    NbCardModule,
   ],
   declarations: [
     RoutesComponent,
-    ProductionIncomeComponent
-  ]
+    ProductionIncomeComponent,
+  ],
 })
 export class RoutesModule { }
