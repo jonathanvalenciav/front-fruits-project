@@ -1,0 +1,25 @@
+<nb-card class="col-md-12 col-lg-12 col-xxxl-12">
+    <nb-card-body>
+      <nb-stepper orientation="horizontal">
+        <nb-step [label]="labelOne">
+          <ng-template #labelOne>Conductor</ng-template>
+          <h3>Información del conductor</h3>
+          <button nbButton disabled nbStepperPrevious>Regresar</button>
+          <button nbButton nbStepperNext>Siguiente</button>
+        </nb-step>
+        <nb-step [label]="labelTwo">
+          <ng-template #labelTwo>Información producción</ng-template>
+          <h3>Información general de la producción</h3>
+          <button nbButton nbStepperPrevious>Regresar</button>
+          <button nbButton nbStepperNext>Siguiente</button>
+        </nb-step>
+        <nb-step [label]="labelThree">
+          <ng-template #labelThree>Productos</ng-template>
+          <h3>Detalle de los productos</h3>
+          <button nbButton nbStepperPrevious>Regresar</button>
+          <button nbButton nbStepperNext>Finalizar</button>
+        </nb-step>
+      </nb-stepper>
+    </nb-card-body>
+  </nb-card>
+  

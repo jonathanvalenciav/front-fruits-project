@@ -1,7 +1,7 @@
 import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
-  {
+  /*{
     title: 'E-commerce',
     icon: 'shopping-cart-outline',
     link: '/pages/dashboard',
@@ -11,12 +11,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'IoT Dashboard',
     icon: 'home-outline',
     link: '/pages/iot-dashboard',
-  },
+  },*/
   {
-    title: 'FEATURES',
+    title: 'HERRAMIENTAS',
     group: true,
   },
-  {
+  /*{
     title: 'Layout',
     icon: 'layout-outline',
     children: [
@@ -42,8 +42,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/layout/tabs',
       },
     ],
-  },
+  },*/
   {
+    title: 'Rutas',
+    icon: 'layout-outline',
+    children: [
+      {
+        title: 'Ingreso de producción',
+        link: '/pages/routes/production-income',
+      },
+    ],
+  }
+  /*{
     title: 'Forms',
     icon: 'edit-2-outline',
     children: [
@@ -243,5 +253,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/reset-password',
       },
     ],
-  },
+  },*/
 ];
